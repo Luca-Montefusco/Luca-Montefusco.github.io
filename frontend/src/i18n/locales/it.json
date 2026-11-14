@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Luca Montefusco – Portfolio"
+  },
+  "nav": {
+    "skip": "Vai al contenuto",
+    "home": "Home",
+    "about": "Chi sono",
+    "projects": "Progetti",
+    "contacts": "Contatti",
+    "language": "Lingua",
+    "themeToLight": "Passa al tema chiaro",
+    "themeToDark": "Passa al tema scuro"
+  },
+  "hero": {
+    "stamp": "Ingegnere informatico, Matematico, Coder",
+    "titleLine1": "Coding",
+    "titleLine2": "and Math",
+    "name": "LUCA MONTEFUSCO",
+    "year": "2026",
+    "place": "ROMA · IT",
+    "tagline": "Programmatore instancabile, sempre in cerca di nuove sfide.",
+    "ctaProjects": "Vedi i progetti",
+    "ctaCv": "Scarica il CV",
+    "imageAlt": "[Descrizione immagine]",
+    "cvIt": "Versione italiana",
+    "cvEn": "Versione inglese"
+  },
+  "about": {
+    "greeting": "Ciao! Sono",
+    "name": "Luca",
+    "p1": "Ho conseguito la laurea triennale in Scienze Matematiche per l'Intelligenza Artificiale alla Sapienza e ora frequento la magistrale in Engineering in Computer Science and Artificial Intelligence. Mi muovo tra matematica, machine learning e sviluppo software.",
+    "p2": "Fuori dallo studio suono il basso da sei anni e faccio volontariato. Da poco ho iniziato anche a smontare e rimettere insieme oggetti tecnologici per capire come funzionano: imparo un pezzo alla volta, ed è lo stesso approccio che porto nei miei progetti.",
+    "now": "Ora: frequento la magistrale e cerco un lavoro, anche part-time o flessibile, che mi permetta di continuare a studiare.",
+    "photoAlt": "Foto di Luca Montefusco",
+    "stamp": "FATTO DA LUCA",
+    "experienceTitle": "Esperienze",
+    "educationTitle": "Formazione",
+    "toolsTitle": "Strumenti",
+    "experience": [
+      {
+        "years": "2017 – oggi",
+        "role": "Educatore e Coordinatore",
+        "place": "Parrocchia Santa Maria Addolorata, Roma",
+        "desc": "Coordino un gruppo di educatori volontari e organizzo attività formative settimanali per ragazzi dai 6 ai 14 anni. Sono il punto di riferimento per le famiglie e affianco gli educatori più giovani."
+      },
+      {
+        "years": "nov 2025 – giu 2026",
+        "role": "Insegnante di inglese",
+        "place": "Associazione Dire Fare Giocare, Roma",
+        "desc": "Lezioni di inglese per bambini della scuola primaria, con attività ludiche e interattive pensate per i più piccoli."
+      }
+    ],
+    "education": [
+      {
+        "years": "2026 – oggi",
+        "role": "Laurea Magistrale in Engineering in Computer Science and Artificial Intelligence",
+        "place": "Sapienza Università di Roma"
+      },
+      {
+        "years": "2023 – 2026",
+        "role": "Laurea Triennale in Scienze Matematiche per l'Intelligenza Artificiale",
+        "place": "Sapienza Università di Roma"
+      },
+      {
+        "years": "2018 – 2023",
+        "role": "Diploma di Liceo Scientifico",
+        "place": "Liceo Tullio Levi-Civita, Roma"
+      }
+    ],
+    "certifications": [
+      {
+        "years": "2026",
+        "role": "Google AI Essentials",
+        "place": "Google"
+      },
+      {
+        "years": "2022",
+        "role": "Cambridge B2 First (FCE)",
+        "place": "Cambridge English"
+      }
+    ],
+    "certificationsTitle": "Certificazioni"
+  },
+  "marquee": [
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "Reti neurali",
+    "AI generativa",
+    "Full-stack web",
+    "Dati sismici",
+    "Ottimizzazione",
+    "Statistica",
+    "PyTorch & TensorFlow",
+    "Problem solving",
+    "Public speaking"
+  ],
+  "contacts": {
+    "title": "Mettiamoci in contatto!",
+    "emailLabel": "Mostra email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "projects": {
+    "title": "Progetti",
+    "intro": "Ecco i lavori di cui sono più fiero.",
+    "back": "Torna alla home",
+    "backToProjects": "Tutti i progetti",
+    "readMore": "Leggi il case study",
+    "mine": "Cosa ho fatto io",
+    "stack": "Strumenti",
+    "problem": "Il problema",
+    "result": "Il risultato",
+    "links": "Link",
+    "repo": "Repository GitHub",
+    "demo": "Demo",
+    "othersTitle": "Altri progetti",
+    "notFound": "Progetto non trovato.",
+    "items": {
+      "tesi": {
+        "tag": "MACHINE LEARNING · TESI TRIENNALE",
+        "desc": "Risalire ai parametri d'attrito di una faglia da simulazioni di terremoti, con le reti neurali convoluzionali",
+        "problem": "Le proprietà d'attrito di una faglia (b, Dc e σn) non si possono misurare direttamente sul campo, eppure determinano la lunghezza critica di nucleazione h*, la scala oltre la quale una rottura sismica si autoalimenta. La tesi verifica se una rete neurale può ricavare questi parametri da mappe spazio-temporali della velocità di scorrimento, generate con il simulatore quasi-dinamico QDYN.",
+        "mine": "Progetto individuale: ho generato il dataset con QDYN, progettato e addestrato le CNN e scritto la stima dei parametri per il singolo evento.",
+        "result": "Errore relativo di circa il 6% su Dc e del 20% su b; σn, trattato come classificazione binaria, raggiunge il 75% di accuratezza. La stima di h* che ne deriva ha un errore medio di circa 0,03 cm."
+      },
+      "retroshop": {
+        "tag": "WEB · FULL STACK",
+        "desc": "Un marketplace di videogiochi e console retro, con annunci degli utenti e chat in tempo reale",
+        "problem": "Progetto del corso di Tecnologie e Sistemi Web: un sito completo, dal database all'interfaccia, per comprare e vendere articoli di retrogaming.",
+        "mine": "Autenticazione, profilo utente, ricerca e filtri, flusso di acquisto.",
+        "result": "Interfaccia in React e Bootstrap, API in FastAPI, database PostgreSQL gestito con SQLAlchemy e chat tra utenti tramite WebSocket."
+      },
+      "from-music-to-image": {
+        "tag": "AI GENERATIVA · PROGETTO DI COPPIA",
+        "desc": "Generare nuovi Pokémon a partire da un brano musicale o da una descrizione testuale",
+        "problem": "Progetto del corso di Machine Learning del secondo anno, realizzato con Giacomo Tronca. L'idea è tradurre input non convenzionali, come un file audio o un testo, in sprite di creature mai viste, usando un dataset di oltre 500 Pokémon con sprite, versi e descrizioni.",
+        "mine": "Mi sono occupato della parte musicale: dalle caratteristiche audio dei brani alla generazione degli sprite. La parte testuale è stata curata da Giacomo Tronca.",
+        "result": "Abbiamo confrontato RealNVP, VAE, VAE-GAN e un fine-tuning LoRA di Stable Diffusion: per l'input musicale il VAE ha dato i risultati migliori, mentre per il testo la scelta finale è un modello condizionato dagli embedding delle descrizioni."
+      },
+      "tsunami-assessment": {
+        "tag": "MACHINE LEARNING · DATI SISMICI",
+        "desc": "Capire in tempo reale se un terremoto può generare uno tsunami",
+        "problem": "Progetto del corso di Earthquake Physics for Machine Learning. I sistemi di allerta tradizionali devono aspettare la stima completa del terremoto prima di lanciare l'allarme. Il progetto usa i dati della Japan Meteorological Agency (oltre 86.000 eventi) per valutare il rischio tsunami subito dopo la scossa.",
+        "mine": "Progetto individuale: preparazione dei dati JMA, una rete LSTM multi-input su dati simulati e una Random Forest pesata per classe sui dati storici.",
+        "result": "Sui dati reali di test il modello riconosce il 61,5% degli tsunami, con un'accuratezza complessiva del 99,9%. La metrica principale è la recall, perché un allarme mancato costa molto più di un falso allarme."
+      },
+      "ehi-box": {
+        "tag": "HARDWARE × SOFTWARE",
+        "desc": "Un assistente vocale costruito dentro uno stereo vintage",
+        "problem": "",
+        "mine": "",
+        "result": ""
+      },
+      "gnn-graph-coloring": {
+        "tag": "MACHINE LEARNING · PROGETTO DI GRUPPO",
+        "desc": "Colorare i grafi con le Graph Neural Networks, partendo dal modello di Potts",
+        "problem": "Progetto del corso di Physics Applications to Machine Learning, con Sofia De Angelis, Matteo Pinato e Aurora Giaccherini. La colorazione di grafi è un problema NP-difficile: lo abbiamo trasformato in un'ottimizzazione differenziabile, con una loss che rilassa l'Hamiltoniana del modello di Potts antiferromagnetico più un termine di entropia.",
+        "mine": "Lavoro di gruppo condiviso: modello, loss, esperimenti e analisi dei risultati li abbiamo sviluppati tutti insieme.",
+        "result": "Confronto tra due architetture (GraphSAGE e GCN) sulle istanze DIMACS g9 e g15: numero cromatico stimato provando k da 2 a 15, con il confronto con l'euristica classica DSATUR."
+      }
+    },
+    "wip": "In corso"
+  },
+  "notFound": {
+    "title": "404",
+    "text": "[Questa pagina non esiste. Messaggio personalizzato]",
+    "back": "Torna alla home"
+  },
+  "footer": {
+    "rights": "© 2026 Luca Montefusco"
+  }
+}

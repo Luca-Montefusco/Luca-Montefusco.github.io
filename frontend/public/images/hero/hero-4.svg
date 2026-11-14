@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="320" viewBox="0 0 500 320">
+  <rect width="500" height="320" fill="#D8D5CE"/>
+  <rect x="8" y="8" width="484" height="304" fill="none" stroke="#4A4954" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="monospace" font-size="22" fill="#4A4954">[IMMAGINE 4]</text>
+</svg>

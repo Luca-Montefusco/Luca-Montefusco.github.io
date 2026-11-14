@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Luca Montefusco – Portfolio"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contacts": "Contact",
+    "language": "Language",
+    "themeToLight": "Switch to light theme",
+    "themeToDark": "Switch to dark theme"
+  },
+  "hero": {
+    "stamp": "Computer Engineer, Mathematician, Coder",
+    "titleLine1": "Coding",
+    "titleLine2": "and Math",
+    "name": "LUCA MONTEFUSCO",
+    "year": "2026",
+    "place": "ROME · IT",
+    "tagline": "A tireless coder, always looking for new challenges.",
+    "ctaProjects": "See my projects",
+    "ctaCv": "Download CV",
+    "imageAlt": "[Image description]",
+    "cvIt": "Italian version",
+    "cvEn": "English version"
+  },
+  "about": {
+    "greeting": "Hi! I'm",
+    "name": "Luca",
+    "p1": "I hold a B.Sc. in Mathematical Sciences for Artificial Intelligence from Sapienza and I'm now taking the M.Sc. in Engineering in Computer Science and Artificial Intelligence. I work where maths, machine learning and software development meet.",
+    "p2": "Outside of my studies I've been playing bass for six years and I volunteer. More recently I've started taking tech apart and putting it back together to see how it works: I learn one piece at a time, and that's the same approach I bring to my projects.",
+    "now": "Now: I'm doing my master's and looking for a job, part-time or flexible, that lets me keep studying.",
+    "photoAlt": "Photo of Luca Montefusco",
+    "stamp": "MADE BY LUCA",
+    "experienceTitle": "Experience",
+    "educationTitle": "Education",
+    "toolsTitle": "Tools",
+    "experience": [
+      {
+        "years": "2017 – now",
+        "role": "Youth Educator & Lead Coordinator",
+        "place": "Santa Maria Addolorata Parish, Rome",
+        "desc": "I coordinate a team of volunteer educators and organise weekly formative activities for children aged 6–14. I'm the main point of contact for families and mentor junior educators."
+      },
+      {
+        "years": "Nov 2025 – Jun 2026",
+        "role": "English Language Teacher",
+        "place": "Dire Fare Giocare Association, Rome",
+        "desc": "Taught English to primary school children through play-based, interactive lessons designed for early learners."
+      }
+    ],
+    "education": [
+      {
+        "years": "2026 – now",
+        "role": "M.Sc. in Engineering in Computer Science and Artificial Intelligence",
+        "place": "Sapienza University of Rome"
+      },
+      {
+        "years": "2023 – 2026",
+        "role": "B.Sc. in Mathematical Sciences for Artificial Intelligence",
+        "place": "Sapienza University of Rome"
+      },
+      {
+        "years": "2018 – 2023",
+        "role": "Scientific High School Diploma",
+        "place": "Liceo Tullio Levi-Civita, Rome"
+      }
+    ],
+    "certifications": [
+      {
+        "years": "2026",
+        "role": "Google AI Essentials",
+        "place": "Google"
+      },
+      {
+        "years": "2022",
+        "role": "Cambridge B2 First (FCE)",
+        "place": "Cambridge English"
+      }
+    ],
+    "certificationsTitle": "Certifications"
+  },
+  "marquee": [
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "Neural networks",
+    "Generative AI",
+    "Full-stack web",
+    "Seismic data",
+    "Optimisation",
+    "Statistics",
+    "PyTorch & TensorFlow",
+    "Problem solving",
+    "Public speaking"
+  ],
+  "contacts": {
+    "title": "Let's get in touch!",
+    "emailLabel": "Show email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Here's the work I'm proudest of.",
+    "back": "Back to home",
+    "backToProjects": "All projects",
+    "readMore": "Read the case study",
+    "mine": "What I did",
+    "stack": "Tools",
+    "problem": "The problem",
+    "result": "The result",
+    "links": "Links",
+    "repo": "GitHub repository",
+    "demo": "Demo",
+    "othersTitle": "Other projects",
+    "notFound": "Project not found.",
+    "items": {
+      "tesi": {
+        "tag": "MACHINE LEARNING · BSC THESIS",
+        "desc": "Recovering fault friction parameters from simulated earthquakes with convolutional neural networks",
+        "problem": "A fault's friction properties (b, Dc and σn) can't be measured directly in the field, yet they set the critical nucleation length h*, the scale beyond which a seismic rupture becomes self-sustaining. The thesis tests whether a neural network can recover these parameters from spatio-temporal slip-rate maps generated with the quasi-dynamic simulator QDYN.",
+        "mine": "Individual project: I generated the dataset with QDYN, designed and trained the CNNs and wrote the single-event parameter estimation.",
+        "result": "Relative error of about 6% on Dc and 20% on b; σn, treated as binary classification, reaches 75% accuracy. The resulting estimate of h* has a mean error of about 0.03 cm."
+      },
+      "retroshop": {
+        "tag": "WEB · FULL STACK",
+        "desc": "A marketplace for retro games and consoles, with user listings and real-time chat",
+        "problem": "Project for the Web Technologies and Systems course: a complete website, from database to interface, for buying and selling retrogaming items.",
+        "mine": "Authentication, user profile, search and filters, checkout flow.",
+        "result": "React and Bootstrap interface, FastAPI backend, PostgreSQL database managed with SQLAlchemy, and user-to-user chat over WebSocket."
+      },
+      "from-music-to-image": {
+        "tag": "GENERATIVE AI · PAIR PROJECT",
+        "desc": "Generating new Pokémon from a piece of music or a text description",
+        "problem": "Second-year Machine Learning course project, built with Giacomo Tronca. The idea is to turn unconventional inputs, such as an audio file or a text, into sprites of never-seen creatures, using a dataset of 500+ Pokémon with sprites, cries and descriptions.",
+        "mine": "I handled the music side: from the audio features of the tracks to sprite generation. The text side was handled by Giacomo Tronca.",
+        "result": "We compared RealNVP, VAE, VAE-GAN and LoRA fine-tuning of Stable Diffusion: for music input the VAE gave the best results, while for text the final choice was a model conditioned on description embeddings."
+      },
+      "tsunami-assessment": {
+        "tag": "MACHINE LEARNING · SEISMIC DATA",
+        "desc": "Telling in real time whether an earthquake can trigger a tsunami",
+        "problem": "Project for the Earthquake Physics for Machine Learning course. Traditional warning systems have to wait for a full estimate of the earthquake before raising the alarm. The project uses Japan Meteorological Agency data (86,000+ events) to assess tsunami risk right after the shock.",
+        "mine": "Individual project: JMA data preparation, a multi-input LSTM on simulated data and a class-weighted Random Forest on historical data.",
+        "result": "On real test data the model detects 61.5% of tsunamis with 99.9% overall accuracy. Recall is the main metric, because a missed warning costs far more than a false alarm."
+      },
+      "ehi-box": {
+        "tag": "HARDWARE × SOFTWARE",
+        "desc": "A voice assistant built inside a vintage stereo",
+        "problem": "",
+        "mine": "",
+        "result": ""
+      },
+      "gnn-graph-coloring": {
+        "tag": "MACHINE LEARNING · TEAM PROJECT",
+        "desc": "Graph coloring with Graph Neural Networks, starting from the Potts model",
+        "problem": "Project for the Physics Applications to Machine Learning course, with Sofia De Angelis, Matteo Pinato and Aurora Giaccherini. Graph coloring is NP-hard: we turned it into a differentiable optimization, with a loss that relaxes the antiferromagnetic Potts Hamiltonian plus an entropy term.",
+        "mine": "A fully shared team effort: we built the model, loss, experiments and analysis of the results together.",
+        "result": "Two architectures (GraphSAGE and GCN) compared on the DIMACS instances g9 and g15: chromatic number estimated by sweeping k from 2 to 15, benchmarked against the classic DSATUR heuristic."
+      }
+    },
+    "wip": "In progress"
+  },
+  "notFound": {
+    "title": "404",
+    "text": "[This page doesn't exist. Custom message]",
+    "back": "Back to home"
+  },
+  "footer": {
+    "rights": "© 2026 Luca Montefusco"
+  }
+}
